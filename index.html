@@ -17,6 +17,7 @@
         .image {
             display: grid;
             place-items: center;
+            padding: 60px 0;
         }
 
         .item {
@@ -46,12 +47,18 @@
             <img src="images/WhatsApp Image 2025-07-16 at 17.17.34_c6eaea10.jpg" alt="">
 
         </div>
+
         <button>
-            <a href="home.php"> click here</a>
+            <a href=""> Loading .......</a>
+
         </button>
     </section>
 
-
+    <script>
+        setTimeout(() => {
+            window.location.replace("home.php"); // Replace with your target URL
+        }, 5000); // Delay in milliseconds (5000ms = 5 seconds)
+    </script>
 
 
 </body>
